@@ -1,0 +1,96 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body section {
+  height: 200px;
+  width: 300px;
+}
+
+body .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #france {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #france div {
+  width: 33.333%;
+}
+
+body #france .bleu {
+  background-color: #000091;
+}
+
+body #france .rouge {
+  background-color: #ff0e00;
+}
+
+body #allemagne div {
+  height: 33%;
+}
+
+body #allemagne .noir {
+  background-color: black;
+}
+
+body #allemagne .rouge {
+  background-color: #ff0e00;
+}
+
+body #allemagne .jaune {
+  background-color: #ffff00;
+}
+
+body #canada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #canada div {
+  width: 25%;
+}
+
+body #canada .rouge {
+  background-color: #ff0e00;
+}
+
+body #canada .blanc {
+  width: 50%;
+}
+
+body #canada .blanc i {
+  font-size: 75px;
+  color: #ff0e00;
+}
+
+body #liban .rouge {
+  background-color: #ff0e00;
+  height: 20%;
+}
+
+body #liban .blanc {
+  height: 60%;
+}
+
+body #liban .blanc i {
+  font-size: 70px;
+  color: #038080;
+}
+/*# sourceMappingURL=style.css.map */

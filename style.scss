@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: space-around;
+
+    section{
+        height: 200px;
+        width: 300px;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #france {
+        display: flex;
+
+        div {width: 33.333%;}
+        .bleu {background-color: #000091;}
+        .rouge {background-color: #ff0e00;}
+    }
+
+    #allemagne {
+        div {height: 33%;}
+        .noir {background-color: black;}
+        .rouge {background-color: #ff0e00;}
+        .jaune {background-color: #ffff00;}
+    }
+
+    #canada {
+        display: flex;
+
+        div {width: 25%;}
+        .rouge {background-color: #ff0e00;}
+        .blanc {
+            width: 50%;
+            i {
+                font-size: 75px;
+                color: #ff0e00;
+            }
+        }
+    }
+
+    #liban {
+        .rouge {
+            background-color: #ff0e00;
+            height: 20%;
+        }
+        .blanc {
+            height: 60%;
+            i {
+                font-size: 70px;
+                color: #038080;
+            }
+        }
+    }
+}
